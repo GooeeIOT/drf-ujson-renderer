@@ -36,7 +36,7 @@ class UJSONRenderer(BaseRenderer):
         if data is None:
             return bytes()
 
-        ret = ujson.dumps(self.json_serializer(data, UJSONRenderer.encoder),
+        ret = ujson.dumps(self.json_serializer(data),
                           ensure_ascii=self.ensure_ascii)
 
         # force return value to unicode
