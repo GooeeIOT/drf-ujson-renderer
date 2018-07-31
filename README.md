@@ -1,6 +1,9 @@
 Django Rest Framework UJSON Renderer
 ==================
 
+*This is a fork of [https://github.com/gizmag/drf-ujson-renderer](gizmag/drf-ujson-renderer)!*
+> This fork has a few added features for a better drop-in replacement for DRF.
+
 [![Build Status](https://travis-ci.org/gizmag/drf-ujson-renderer.png?branch=master)](https://travis-ci.org/gizmag/drf-ujson-renderer)
 
 Django Rest Framework renderer using [ujson](https://github.com/esnme/ultrajson)
